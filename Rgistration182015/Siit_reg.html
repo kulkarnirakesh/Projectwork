@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html style="" class="" lang=""><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="file:///D:/Templates/initializr/apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <style>
+            body {
+                
+              
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script type="text/javascript" src="Frmvalidation.js"></script>
+    </head>
+    <body>
+            
+    
+    <div class="col-md-12 col-md-offset-3">
+    
+        <h1>Register Now</h1>
+    <div class="row" >
+		
+        <form name="form1" action="save.php" method="post" onsubmit="return Validateform1();">
+				<div class="col-md-3">
+				<input name="fn" class="form-control" placeholder="First Name" type="text" onblur="isalpha(fn,'Please Enter only Alphabets')">
+				</div>
+				
+				 <div class="col-md-3">
+				<input name="ln" class="form-control" placeholder="Last Name" type="text" onblur="isalpha(ln,'Please Enter only Alphabets')">
+				</div>
+				</div><br>
+				
+				<div class="row">
+                <div class="col-md-6">
+				<input name="email" maxlength="50" class="form-control" placeholder="Email" type="text">
+				</div>
+				</div><br>
+                
+				<div class="row">
+                <div class="col-md-6">
+				<input name="mno" maxlength="50" class="form-control" placeholder="Mobile Number" type="text" onblur="isdigit(mno,'Please Enter only Numbers')">
+				</div>
+				</div><br>
+                
+                <div class="row">
+                <div class="col-md-6">
+				<input name="qua" maxlength="50" class="form-control" placeholder="Qualification" type="text">
+				</div>
+				</div><br>
+                
+                <div class="row">
+                <div class="col-md-6">
+				<input name="colnm" maxlength="50" class="form-control" placeholder="College Name" type="text">
+				</div>
+				</div><br>
+                
+                <div class="row">
+                <div class="col-md-6">
+				<input name="city" maxlength="50" class="form-control" placeholder="City" type="text">
+				</div>
+				</div><br>
+                
+                <div class="row"> 
+                <div class="col-md-6">
+				<input name="uname" maxlength="10" class="form-control " placeholder="User Name" type="text">
+				</div>
+				</div><br>
+                
+				<div class="row"> 
+                <div class="col-md-6">
+				<input name="pass" maxlength="10" class="form-control " placeholder="Password" type="text">
+				</div>
+				</div><br>
+                
+                <div class="row"> 
+                <div class="col-md-6">
+				<input name="cpass" maxlength="10" class="form-control " placeholder="Confirm Password" type="text">
+				</div>
+				</div>
+				 
+						<br>	
+                        <div class="row">
+						<div class="col-md-3" align="left">
+			
+							<input value="Sign-Up" class="btn btn-success btn-block" type="submit" name="submit">
+						</div><br><br>
+						</div>
+        </div> 
+       
+		</form>
+    
+    </body>
